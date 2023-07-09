@@ -58,10 +58,10 @@ const CardDeck = () => {
     return (
         <div className="CardDeck-container">
             <div className="CardDeck-btn-container">
-                <button onClick={ drawCard } disabled={ isShuffling }>
+                <button className="CardDeck-btn" onClick={ drawCard } disabled={ isShuffling }>
                     Draw Card
                 </button>
-                <button onClick={ shuffleDeck } disabled={ isShuffling }>
+                <button className="CardDeck-btn" onClick={ shuffleDeck } disabled={ isShuffling }>
                     Shuffle Deck
                 </button>
             </div>
@@ -71,7 +71,7 @@ const CardDeck = () => {
                         key={ index }
                         src={ card.image }
                         alt={ card.code }
-                        className={ `card card-${index + 1}` }
+                        className="CardDeck-card"
                     />
                 )) }
             </div>

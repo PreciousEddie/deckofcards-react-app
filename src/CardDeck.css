@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-.card {
+.CardDeck-card {
   height: 175px;
   width: 125px;
   margin: 5px;
@@ -19,7 +19,7 @@
   transition: transform 0.3s;
 }
 
-.card:hover {
+.CardDeck-card:hover {
   transform: translateY(-20px);
 }
 
@@ -29,7 +29,7 @@
   margin-top: 20px;
 }
 
-button {
+.CardDeck-btn {
   padding: 5px;
   margin: 0 10px;
   background-color: black;
